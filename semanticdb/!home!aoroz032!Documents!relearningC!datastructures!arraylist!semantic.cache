@@ -1,0 +1,138 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("arraylist.h" include nil nil [20 42])
+            ("main" function (:type "int") nil [44 305]))          
+      :file "main.c"
+      :pointmax 306
+      :fsize 305
+      :lastmodtime '(23581 19244 121890 418000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdlib.h" include (:system-flag t) nil [1 20])
+            ("MAX_SIZE" variable (:constant-flag t) nil [30 38])
+            ("ArrayList" type
+               (:members 
+                  ( ("array" variable
+                       (:pointer 1
+                        :type "int")
+                        (reparse-symbol classsubparts) [62 73])
+                    ("currentSize" variable (:type "int") (reparse-symbol classsubparts) [76 92])
+                    ("size" variable (:type "int") (reparse-symbol classsubparts) [95 104]))                  
+                :type "struct")
+                nil [42 107])
+            ("create_arraylist" function
+               (:prototype-flag t
+                :pointer 1
+                :type ("ArrayList" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [109 146])
+            ("expand_arraylist" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("arraylist" variable
+                       (:pointer 1
+                        :type ("ArrayList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [169 197]))                  
+                :type "void")
+                nil [147 198])
+            ("add_end" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("arraylist" variable
+                       (:pointer 1
+                        :type ("ArrayList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [212 240])
+                    ("value" variable (:type "int") (reparse-symbol arg-sub-list) [241 251]))                  
+                :type "void")
+                nil [199 252])
+            ("free_arraylist" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("arraylist" variable
+                       (:pointer 1
+                        :type ("ArrayList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [273 301]))                  
+                :type "void")
+                nil [253 302]))          
+      :file "arraylist.h"
+      :pointmax 304
+      :fsize 303
+      :lastmodtime '(23581 19128 697968 679000)
+      :unmatched-syntax '((number 39 . 40))
+      :lexical-table 
+        '(("MAX_SIZE" . ((number "5" 39 . 40)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("arraylist.h" include nil nil [1 23])
+            ("create_arraylist" function
+               (:pointer 1
+                :type ("ArrayList" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [25 264])
+            ("expand_arraylist" function
+               (:arguments 
+                  ( ("arraylist" variable
+                       (:pointer 1
+                        :type ("ArrayList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [288 316]))                  
+                :type "void")
+                nil [266 495])
+            ("add_end" function
+               (:arguments 
+                  ( ("arraylist" variable
+                       (:pointer 1
+                        :type ("ArrayList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [510 538])
+                    ("value" variable (:type "int") (reparse-symbol arg-sub-list) [539 549]))                  
+                :type "void")
+                nil [497 787])
+            ("free_arraylist" function
+               (:arguments 
+                  ( ("arraylist" variable
+                       (:pointer 1
+                        :type ("ArrayList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [809 837]))                  
+                :type "void")
+                nil [789 956]))          
+      :file "arraylist.c"
+      :pointmax 957
+      :fsize 956
+      :lastmodtime '(23581 19167 569969 806000)
+      :unmatched-syntax nil))
+  :file "!home!aoroz032!Documents!relearningC!datastructures!arraylist!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

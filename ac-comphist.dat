@@ -1,0 +1,512 @@
+((("api_view" .
+   [0 0 0 0 1 0 0 0])
+  ("decorators" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("request" .
+   [1 0 0 0 0 0 0])
+  ("conf" .
+   [1 0 0 0])
+  ("url" .
+   [3 0 0])
+  ("category_all" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("LEXERS" .
+   [0 0 1 0 0 0])
+  ("sorted" .
+   [0 0 0 0 0 1])
+  ("item" .
+   [4 0 0 0])
+  ("get_all_styles" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("styles" .
+   [1 0 0 0 0 0])
+  ("get_all_lexers" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 1])
+  ("lexers" .
+   [0 0 0 0 0 1])
+  ("pygments" .
+   [1 0 0 1 0 0 0 0])
+  ("name" .
+   [1 0 0 0])
+  ("about" .
+   [1 0 0 0 0])
+  ("path" .
+   [6 0 0 0])
+  ("views" .
+   [4 0 0 0 0])
+  ("urls" .
+   [2 0 0 1])
+  ("django" .
+   [4 0 0 0 0 0])
+  ("None" .
+   [3 0 0 0])
+  ("DoublyLinkedList" .
+   [0 1 0 1 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("setPrevNode" .
+   [6 0 0 0 0 0 1 0 0 0 0])
+  ("addPrevNode" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("elevatorSemaphore" .
+   [0 0 0 0 0 0 0 0 0 0 2 1 1 0 0 0 1])
+  ("Release" .
+   [1 0 0 0 0 0 0])
+  ("personAmount" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Acquire" .
+   [1 0 0 0 0 0 0])
+  ("elevatorLock" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("elevator" .
+   [2 0 0 0 0 0 0 0])
+  ("lock" .
+   [2 0 0 0])
+  ("Lock" .
+   [3 0 0 0])
+  ("ArrivingGoingFromTo" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Semaphore" .
+   [1 0 0 1 2 0 0 0 0])
+  ("ElevatorThread" .
+   [1 0 0 0 1 0 1 0 0 0 0 0 0 0])
+  ("inElevator" .
+   [0 0 0 0 0 2 0 0 0 0])
+  ("PersonOperation" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("counter" .
+   [3 0 0 0 0 0 0])
+  ("ElevatorOperation" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("aFloor" .
+   [0 0 0 1 0 0])
+  ("atFloor" .
+   [1 0 0 2 0 0 1])
+  ("person" .
+   [11 0 0 0 0 0])
+  ("PersonThread" .
+   [0 0 1 0 0 0 0 0 0 0 0 0])
+  ("toFloor" .
+   [2 0 1 3 0 0 0])
+  ("numPeopleIn" .
+   [1 0 0 0 2 1 0 0 0 0 0])
+  ("currentFloor" .
+   [6 0 0 0 0 0 0 3 0 0 0 0])
+  ("elevatorThread" .
+   [12 0 0 0 0 0 0 0 0 0 1 0 0 1])
+  ("Elevator" .
+   [1 0 0 1 0 2 0 4])
+  ("numFloors" .
+   [1 0 1 2 1 0 0 0 1])
+  ("cout" .
+   [3 0 0 0])
+  ("std" .
+   [1 0 0])
+  ("Simple" .
+   [0 0 0 0 0 1])
+  ("ThreadTest" .
+   [1 0 0 0 0 0 1 0 0 0])
+  ("SimpleThread" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Fork" .
+   [3 0 0 0])
+  ("a" .
+   [1])
+  ("threads" .
+   [1 0 0 0 0 0 0])
+  ("thread" .
+   [4 0 0 0 0 0])
+  ("amount" .
+   [6 0 0 0 1 0])
+  ("Thread" .
+   [11 0 0 0 0 0])
+  ("t" .
+   [4])
+  ("printString" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("something" .
+   [9 0 0 0 1 0 0 0 0])
+  ("dequeue" .
+   [0 0 0 0 0 1 0])
+  ("print_queue" .
+   [0 0 0 0 0 0 0 1 0 1 0])
+  ("free_queue" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("last" .
+   [3 0 0 0])
+  ("expand_queue" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("enqueue" .
+   [0 0 0 1 2 0 0])
+  ("create_queue" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("queue" .
+   [45 0 0 0 0])
+  ("Queue" .
+   [5 0 1 6 1])
+  ("helm-show-kill-ring" .
+   [0 0 0 0 3 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("helm-buffers-list" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("deleteEnd" .
+   [1 0 0 0 0 0 0 0 0])
+  ("deleteTop" .
+   [2 0 0 0 0 0 0 0 0])
+  ("insertHead" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("createNode" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("freeNode" .
+   [4 0 0 0 0 0 0 0])
+  ("deleteNode" .
+   [1 0 0 0 0 0 1 0 0 0])
+  ("freeNodes" .
+   [1 0 0 0 0 0 0 0 0])
+  ("free" .
+   [9 0 0 0])
+  ("tmp" .
+   [23 0 0])
+  ("LinkedList" .
+   [3 0 0 2 1 2 1 0 0 3])
+  ("head" .
+   [25 0 0 0])
+  ("freeLinkedList" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("printLinkedList" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("nextNode" .
+   [11 0 0 1 0 2 1 0])
+  ("node" .
+   [37 0 0 0])
+  ("currentNode" .
+   [16 0 0 0 0 0 0 5 0 0 0])
+  ("Node" .
+   [20 0 0 0])
+  ("n" .
+   [10])
+  ("newNode" .
+   [14 0 0 0 0 0 0])
+  ("value" .
+   [20 0 0 0 0])
+  ("linkedList" .
+   [17 0 0 0 0 0 0 0 0 11])
+  ("addNode" .
+   [1 0 0 2 0 0 0])
+  ("createLinkedList" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("string2" .
+   [1 0 0 0 0 0 0])
+  ("doIt" .
+   [2 0 0 0])
+  ("operation" .
+   [1 0 0 0 0 0 0 0 0])
+  ("Operand" .
+   [1 0 0 0 0 0 0])
+  ("perform" .
+   [0 0 0 1 0 0 0])
+  ("operands" .
+   [4 0 0 0 0 0 0 1])
+  ("getOperands" .
+   [0 0 0 0 0 0 1 0 1 0 0])
+  ("opSize" .
+   [3 0 0 0 0 0])
+  ("endSize" .
+   [4 0 0 0 0 0 0])
+  ("getValues" .
+   [1 0 0 0 0 0 0 0 0])
+  ("OP_SUBTRACT" .
+   [0 0 1 0 0 0 0 0 0 0 0])
+  ("OP_ADD" .
+   [1 0 2 0 0 0])
+  ("Stack" .
+   [6 0 0 0 0])
+  ("d_size" .
+   [3 0 0 0 0 0])
+  ("size_t" .
+   [1 0 0 0 0 0])
+  ("type" .
+   [3 0 0 0])
+  ("get_type_size" .
+   [0 0 0 1 0 0 0 1 0 0 0 0 0])
+  ("p_reg" .
+   [8 0 0 0 3])
+  ("NUMBER_OF_REGISTERS" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("include" .
+   [3 0 0 0 1 0 0])
+  ("strlen" .
+   [2 0 0 0 0 0])
+  ("register_t" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("register_to_binary" .
+   [3 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0])
+  ("register" .
+   [0 0 0 0 0 1 0 2])
+  ("printf" .
+   [38 0 0 0 0 2])
+  ("string" .
+   [9 0 0 0 0 0])
+  ("NULL" .
+   [33 0 0 0])
+  ("decimal_to_binary" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("registerString" .
+   [6 0 0 0 0 0 0 0 0 2 0 1 0 4])
+  ("regularVariable" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("b_pointer" .
+   [0 0 1 0 0 0 0 0 0])
+  ("SIZE" .
+   [3 0 1 0])
+  ("pArray" .
+   [7 0 0 0 0 0])
+  ("setValue" .
+   [1 0 0 0 0 0 0 0])
+  ("array" .
+   [35 0 1 0 2])
+  ("printValues" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("first" .
+   [5 0 0 0 0])
+  ("size" .
+   [31 0 0 0])
+  ("temp" .
+   [12 0 0 0])
+  ("second" .
+   [3 0 0 0 0 0])
+  ("strcpyy" .
+   [0 0 0 0 1 0 0])
+  ("p_copy" .
+   [4 0 0 0 0 0])
+  ("p_string" .
+   [4 0 0 0 0 0 0 0])
+  ("SIZE_OF_STACK" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("stack" .
+   [40 0 0 0 0])
+  ("lastPos" .
+   [9 0 0 0 2 1 0])
+  ("element" .
+   [3 0 0 0 0 0 0])
+  ("add" .
+   [2 0 0])
+  ("stack_push" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("top" .
+   [1 0 0])
+  ("stack_peak" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("peak" .
+   [1 0 0 0])
+  ("ohundred" .
+   [0 0 0 0 0 0 0 1])
+  ("STACK_INT" .
+   [0 0 0 0 1 0 0 1 0])
+  ("stack_type" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("OP_MULTIPLY" .
+   [1 0 1 0 0 0 1 0 0 0 0])
+  ("OP_DIVIDE" .
+   [0 0 0 0 0 1 0 0 1])
+  ("p_array" .
+   [1 0 1 0 0 0 0])
+  ("DELIMITOR" .
+   [0 0 2 0 0 0 0 0 1])
+  ("strtok" .
+   [1 0 0 0 0 0])
+  ("malloc" .
+   [2 0 0 0 0 0])
+  ("items" .
+   [2 0 0 0 0])
+  ("index" .
+   [6 0 0 0 0])
+  ("del" .
+   [1 0 0])
+  ("delim" .
+   [2 0 0 0 0])
+  ("split" .
+   [2 0 0 0 0])
+  ("values" .
+   [4 0 0 0 0 0])
+  ("mem_read" .
+   [1 0 0 0 0 0 0 0])
+  ("imm9" .
+   [1 0 0 0])
+  ("mem_write" .
+   [1 0 0 0 0 0 0 0 0])
+  ("imm6" .
+   [2 0 0 0])
+  ("uint16_t" .
+   [1 0 0 0 0 0 0 7])
+  ("memory" .
+   [2 0 0 0 1 1])
+  ("reg" .
+   [7 0 0])
+  ("R_R0" .
+   [10 0 0 1])
+  ("stdout" .
+   [3 0 0 0 0 0])
+  ("op_trap_puts" .
+   [0 0 0 0 0 0 0 1 0 0 0 1])
+  ("uin16_t" .
+   [1 0 0 0 0 0 1])
+  ("putc" .
+   [1 0 0 0])
+  ("c" .
+   [1])
+  ("fflush" .
+   [0 0 1 0 1 0])
+  ("op_trap_out" .
+   [1 0 0 0 0 0 0 0 0 0 1])
+  ("stdin" .
+   [1 0 0 0 0])
+  ("op_trap_getc" .
+   [1 0 0 0 0 0 0 0 0 0 0 2])
+  ("op_trap_in" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("op_trap_halt" .
+   [1 0 0 0 0 0 0 0 0 0 0 1])
+  ("startingAddress" .
+   [6 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("op_trap_putsp" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("lower7" .
+   [2 0 0 0 0 0])
+  ("upper7" .
+   [0 0 0 2 0 0])
+  ("createDoubleLinkedList" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("stdio" .
+   [1 0 0 0 1])
+  ("doubleLinkedList" .
+   [5 0 0 0 0 0 0 0 0 0 1 1 0 0 0 3])
+  ("tail" .
+   [14 0 0 0])
+  ("freeDoubleLinkedList" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DoubleLinkedList" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("printDoubleLinkedList" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("prevNode" .
+   [1 0 0 1 0 0 0 0])
+  ("helm-bookmarks" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("helm-find-files" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("helm-man-woman" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("helm-occur" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("require" .
+   [1 0 0 0 0 0 0])
+  ("ArrayList" .
+   [12 0 0 0 0 0 0 0 0])
+  ("s" .
+   [2])
+  ("arraylist" .
+   [41 0 0 0 0 0 0 0 4])
+  ("MAX_SIZE" .
+   [1 0 0 2 2 0 0 0])
+  ("currentSize" .
+   [10 0 0 0 0 0 0 2 1 0 0])
+  ("Arraylist" .
+   [0 0 0 0 0 0 0 1 2])
+  ("newSize" .
+   [2 0 0 0 0 0 0])
+  ("expand_arraylist" .
+   [0 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0])
+  ("create_arraylist" .
+   [0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0])
+  ("add_end" .
+   [0 0 0 1 0 0 0])
+  ("free_arraylist" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("print_arraylist" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("add_front" .
+   [1 0 0 0 0 0 0 0 0])
+  ("class" .
+   [1 0 0 0 0])
+  ("null" .
+   [3 0 0 0])
+  ("set" .
+   [1 0 0])
+  ("getNextNode" .
+   [6 0 0 0 0 1 0 1 0 0 1])
+  ("setNextNode" .
+   [6 0 0 0 0 0 0 0 0 0 1])
+  ("get" .
+   [1 0 0])
+  ("threadNumber" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("ThreadTest1" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("print" .
+   [0 0 0 0 1])
+  ("alvaro" .
+   [1 0 0 0 0 0])
+  ("urlopen" .
+   [1 0 0 0 0 0 0])
+  ("reponse" .
+   [2 0 0 0 0 0 0])
+  ("nodeAfter" .
+   [5 0 0 0 0 0 0 0 0])
+  ("nodeBefore" .
+   [5 0 0 0 0 0 0 0 0 0])
+  ("getPrevNode" .
+   [6 0 0 0 0 0 1 0 0 0 0])
+  ("doublyLinkedList" .
+   [5 0 0 1 0 2 0 0 0 0 0 0 0 0 0 0])
+  ("addAfter" .
+   [1 0 0 0 0 0 0 1])
+  ("getValue" .
+   [0 0 0 0 0 0 0 1])
+  ("imag" .
+   [0 0 0 1])
+  ("addBefore" .
+   [1 0 0 0 0 0 0 0 0])
+  ("removeNode" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("addHead" .
+   [0 0 0 0 0 0 1])
+  ("anotherNode" .
+   [4 0 0 0 0 0 0 0 0 0 1])
+  ("elif" .
+   [0 0 0 1])
+  ("addEnd" .
+   [0 0 0 0 0 1])
+  ("or" .
+   [1 0])
+  ("printList" .
+   [0 0 0 0 0 0 0 0 1])
+  ("rest_framework" .
+   [2 0 0 0 0 0 0 0 1 0 0 0 0 1])
+  ("status" .
+   [7 0 0 0 0 0])
+  ("is_informational" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("HTTP_201_CREATED" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("HTTP_400_BAD_REQUEST" .
+   [0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0])
+  ("HTTP_204_NO_CONTENT" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("HTTP_404_NOT_FOUND" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("response" .
+   [1 0 0 0 0 0 0 0])
+  ("parsers" .
+   [0 2 0 0 0 0 0])
+  ("utils" .
+   [0 0 0 0 1])
+  ("use-package" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("jedi" .
+   [1 0 0 0])
+  (":ensure" .
+   [1 0 0 0 0 0 0])
+  (":init" .
+   [1 0 0 0 0])
+  ("add-hook" .
+   [1 0 0 0 0 0 0 0])
+  ("python-mode-hook" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])))

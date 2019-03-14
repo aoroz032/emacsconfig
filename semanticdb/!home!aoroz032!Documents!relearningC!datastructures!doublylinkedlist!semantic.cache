@@ -1,0 +1,218 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("stdlib.h" include (:system-flag t) nil [20 39])
+            ("Node" type
+               (:members 
+                  ( ("value" variable (:type "int") (reparse-symbol classsubparts) [56 66])
+                    ("nextNode" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [69 91])
+                    ("prevNode" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [94 116]))                  
+                :type "struct")
+                nil [41 119])
+            ("DoubleLinkedList" type
+               (:members 
+                  ( ("head" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [148 166])
+                    ("tail" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol classsubparts) [169 187]))                  
+                :type "struct")
+                nil [121 190])
+            ("createDoubleLinkedList" function
+               (:prototype-flag t
+                :pointer 1
+                :type ("DoubleLinkedList" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [192 242])
+            ("deleteEnd" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("DoubleLinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [258 283]))                  
+                :type "void")
+                nil [243 284])
+            ("deleteHead" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("DoubleLinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [301 326]))                  
+                :type "void")
+                nil [285 327])
+            ("createNode" function
+               (:prototype-flag t
+                :pointer 1
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [352 365])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [366 370]))                  
+                :type ("Node" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [328 371])
+            ("addNode" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("DoubleLinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [385 410])
+                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [411 415]))                  
+                :type "void")
+                nil [372 416])
+            ("freeDoubleLinkedList" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("DoubleLinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [443 468]))                  
+                :type "void")
+                nil [417 469])
+            ("printDoubleLinkedList" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable
+                       (:pointer 1
+                        :type ("DoubleLinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [497 522]))                  
+                :type "void")
+                nil [470 523]))          
+      :file "doublelinkedlist.h"
+      :pointmax 524
+      :fsize 523
+      :lastmodtime '(23580 4038 125916 217000)
+      :unmatched-syntax '((punctuation 370 . 371) (semantic-list 351 . 370) (punctuation 468 . 469) (semantic-list 442 . 468) (punctuation 415 . 416) (semantic-list 384 . 415) (punctuation 370 . 371) (semantic-list 351 . 370)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("doublelinkedlist.h" include nil nil [1 30])
+            ("createDoubleLinkedList" function
+               (:pointer 1
+                :type ("DoubleLinkedList" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [32 265])
+            ("createNode" function
+               (:pointer 1
+                :arguments 
+                  ( ("currentNode" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [291 316])
+                    ("value" variable (:type "int") (reparse-symbol arg-sub-list) [317 327]))                  
+                :type ("Node" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [267 494])
+            ("addNode" function
+               (:arguments 
+                  ( ("doubleLinkedList" variable
+                       (:pointer 1
+                        :type ("DoubleLinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [509 551])
+                    ("value" variable (:type "int") (reparse-symbol arg-sub-list) [552 562]))                  
+                :type "void")
+                nil [496 945])
+            ("freeDoubleLinkedList" function
+               (:arguments 
+                  ( ("doubleLinkedList" variable
+                       (:pointer 1
+                        :type ("DoubleLinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [973 1015]))                  
+                :type "void")
+                nil [947 1249])
+            ("printDoubleLinkedList" function
+               (:arguments 
+                  ( ("doubleLinkedList" variable
+                       (:pointer 1
+                        :type ("DoubleLinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1278 1320]))                  
+                :type "void")
+                nil [1251 1778]))          
+      :file "doublelinkedlist.c"
+      :pointmax 1866
+      :fsize 1865
+      :lastmodtime '(23580 4412 491689 195000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 19])
+            ("doublelinkedlist.h" include nil nil [20 49])
+            ("main" function (:type "int") nil [52 367]))          
+      :file "main.c"
+      :pointmax 368
+      :fsize 367
+      :lastmodtime '(23580 4090 46659 234000)
+      :unmatched-syntax nil))
+  :file "!home!aoroz032!Documents!relearningC!datastructures!doublylinkedlist!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,127 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("linkedlist.h" include nil nil [1 24])
+            ("createLinkedList" function
+               (:pointer 1
+                :type ("LinkedList" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [26 210])
+            ("freeLinkedList" function
+               (:arguments 
+                  ( ("linkedList" variable
+                       (:pointer 1
+                        :type ("LinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [232 262]))                  
+                :type "void")
+                nil [212 348])
+            ("freeNodes" function
+               (:arguments 
+                  ( ("linkedList" variable
+                       (:pointer 1
+                        :type ("LinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [365 395]))                  
+                :type "void")
+                nil [350 637])
+            ("createNode" function
+               (:pointer 1
+                :arguments 
+                  ( ("value" variable (:type "int") (reparse-symbol arg-sub-list) [663 673]))                  
+                :type ("Node" type
+                     (:prototype t
+                      :type "struct")
+                      nil nil))
+                nil [639 777])
+            ("addNode" function
+               (:arguments 
+                  ( ("linkedList" variable
+                       (:pointer 1
+                        :type ("LinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [792 822])
+                    ("value" variable (:type "int") (reparse-symbol arg-sub-list) [823 833]))                  
+                :type "void")
+                nil [779 1102])
+            ("insertHead" function
+               (:arguments 
+                  ( ("linkedList" variable
+                       (:pointer 1
+                        :type ("LinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1120 1150])
+                    ("value" variable (:type "int") (reparse-symbol arg-sub-list) [1151 1161]))                  
+                :type "void")
+                nil [1104 1400])
+            ("freeNode" function
+               (:arguments 
+                  ( ("node" variable
+                       (:pointer 1
+                        :type ("Node" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1416 1434]))                  
+                :type "void")
+                nil [1402 1539])
+            ("deleteTop" function
+               (:arguments 
+                  ( ("linkedList" variable
+                       (:pointer 1
+                        :type ("LinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1556 1586]))                  
+                :type "void")
+                nil [1541 1844])
+            ("deleteEnd" function
+               (:arguments 
+                  ( ("linkedList" variable
+                       (:pointer 1
+                        :type ("LinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [1861 1891]))                  
+                :type "void")
+                nil [1846 2348])
+            ("printLinkedList" function
+               (:arguments 
+                  ( ("linkedList" variable
+                       (:pointer 1
+                        :type ("LinkedList" type
+                             (:prototype t
+                              :type "struct")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [2371 2401]))                  
+                :type "void")
+                nil [2350 2621]))          
+      :file "linkedlist.c"
+      :pointmax 2622
+      :fsize 2621
+      :lastmodtime '(23578 56121 173606 425000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :file "linkedlist.h"
+      :fsize 630
+      :lastmodtime '(23578 55982 766109 636000)))
+  :file "!home!aoroz032!Documents!relearningC!datastructures!linkedlist!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
